@@ -1,4 +1,4 @@
-package com.github.paatz04.flowlayout;
+package com.paatz04.flowlayout;
 
 import android.content.Context;
 import android.content.res.TypedArray;
