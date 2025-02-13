@@ -28,4 +28,20 @@ dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }
 
+publishing {
+    publications {
+        create("release", MavenPublication) {
+            from components.findByName('release')
+            groupId = 'com.github.paatz04'
+            artifactId = 'FlowLayout'
+            version = '1.0.0'
+        }
+    }
 
+    repositories {
+        mavenLocal()  // To publish locally for testing
+        maven {
+            url = uri("https://jitpack.io") // JitPack repository URL
+        }
+    }
+}
