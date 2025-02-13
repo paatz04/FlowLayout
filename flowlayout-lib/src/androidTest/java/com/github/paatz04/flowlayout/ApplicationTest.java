@@ -1,4 +1,4 @@
-package com.zhy.flowlayout_lib;
+package com.github.paatz04.flowlayout;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

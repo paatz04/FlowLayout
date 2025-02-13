@@ -1,4 +1,4 @@
-package com.zhy.view.flowlayout;
+package com.github.paatz04.flowlayout;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,6 +12,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+
+import com.github.paatz04.R;
 
 import java.util.HashSet;
 import java.util.Iterator;

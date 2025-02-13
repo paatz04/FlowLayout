@@ -6,13 +6,13 @@ plugins {
 android {
 
     namespace 'com.github.paatz04'
-    compileSdkVersion 25  // Add the compileSdkVersion
+    compileSdkVersion 34  // Add the compileSdkVersion
 
     defaultConfig {
         minSdkVersion 10
-        targetSdkVersion 25
+        targetSdkVersion 34
         versionCode 1
-        versionName "1.0.4"
+        versionName "1.0.5"
     }
 
     buildTypes {
@@ -34,7 +34,7 @@ publishing {
             from components.findByName('release')
             groupId = 'com.github.paatz04'
             artifactId = 'FlowLayout'
-            version = '1.0.4'
+            version = '1.0.5'
         }
     }
 

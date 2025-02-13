@@ -1,4 +1,4 @@
-package com.zhy.view.flowlayout;
+package com.github.paatz04.flowlayout;
 
 import android.util.Log;
 import android.view.View;
