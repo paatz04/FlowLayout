@@ -26,7 +26,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../flowlayout-lib/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../flowlayout-lib/src/main/res" type="java-resource" />
     </content>
-    <orderEntry type="jdk" jdkName="Android API 34, extension level 7 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-v4:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.core:core:1.0.0@aar" level="project" />

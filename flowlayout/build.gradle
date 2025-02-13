@@ -10,7 +10,7 @@ android {
         versionName "1.0"
     }
 
-    namespace 'com.zhy.view.flowlayout'
+    namespace 'com.github.paatz04'
 
     buildTypes {
         release {
