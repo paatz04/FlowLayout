@@ -1,16 +1,18 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'  // Change to library plugin
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 34
     buildToolsVersion "25.0.3"
 
     defaultConfig {
-        applicationId "com.zhy.flowlayout"
         minSdkVersion 10
-        targetSdkVersion 25
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
     }
+
+    namespace 'com.paatz04.flowlayout'
+
     buildTypes {
         release {
             minifyEnabled false
@@ -20,9 +22,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:25.3.0'
-    compile project(':flowlayout-lib')
-    compile 'com.android.support:design:25.3.0'
-    compile 'com.zhy:base-adapter:2.0.1'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:25.3.0'
+    implementation project(':flowlayout-lib')  // If this is another module in the project
+    implementation 'com.android.support:design:25.3.0'
+    implementation 'com.zhy:base-adapter:2.0.1'
 }
