@@ -3,14 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlowLayout.iml" filepath="$PROJECT_DIR$/.idea/modules/FlowLayout.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flowlayout/FlowLayout.flowlayout.iml" filepath="$PROJECT_DIR$/.idea/modules/flowlayout/FlowLayout.flowlayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/flowlayout-lib/FlowLayout.flowlayout-lib.iml" filepath="$PROJECT_DIR$/.idea/modules/flowlayout-lib/FlowLayout.flowlayout-lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/flowlayout-lib/FlowLayout.flowlayout-lib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/flowlayout-lib/FlowLayout.flowlayout-lib.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/flowlayout-lib/FlowLayout.flowlayout-lib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/flowlayout-lib/FlowLayout.flowlayout-lib.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/flowlayout-lib/FlowLayout.flowlayout-lib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/flowlayout-lib/FlowLayout.flowlayout-lib.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flowlayout/FlowLayout.flowlayout.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/flowlayout/FlowLayout.flowlayout.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flowlayout/FlowLayout.flowlayout.main.iml" filepath="$PROJECT_DIR$/.idea/modules/flowlayout/FlowLayout.flowlayout.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flowlayout/FlowLayout.flowlayout.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/flowlayout/FlowLayout.flowlayout.unitTest.iml" />
     </modules>
   </component>
 </project>
